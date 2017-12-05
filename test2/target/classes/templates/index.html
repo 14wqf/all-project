@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content=" ">
+    <title>Document</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        a{text-decoration: none;}
+        ul,li{list-style: none;}
+        body{font-size: 14px;font-family: "微软雅黑";}
+    </style>
+</head>
+<body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+    window.onload=function(){
+    	var index=0;
+    	var x=document.getElementsByClassName("sssss").length;
+    	document.getElementById("next").onclick=function(){
+    	if(index==x){alert('没有下一首歌了');}
+    	else{
+    				var i=document.getElementsByClassName("song_name")[index+1];
+    		var content=i.innerHTML;
+    		document.getElementById("media").src="http://localhost:8081/"+content;
+    		index++;}
+    		
+    	
+    	}
+    	document.getElementById("last").onclick=function(){
+        	if(index==0){alert('没有上一首歌了');}
+        	else{
+        		var i=document.getElementsByClassName("song_name")[index-1];
+        		var content=i.innerHTML;
+        		document.getElementById("media").src="http://localhost:8081/"+content;
+        		index--;}
+        		
+        	
+        	}
+    	}
+     	//$(".next").click(function(){
+     		//var i=$(".song_name")[index+1];
+     		//var ii=i.html();
+     		//alert(ii);
+     		//$(".player").attr('src',i);
+     		//index++;
+     	
+    </script>
+    <form action="upload" method="post" enctype="multipart/form-data" >
+    <input type="file" name="files" value="上传" multiple="multiple" /><br>
+	<button>上传 </button>
+    </form>
+    <div th:each="pu:${pu}">
+         <div class="sssss" th:text="${pu.id}"></div>
+    	<div class="song_name" th:text="${pu.name}"></div>
+    </div>
+</body>
+</html>
