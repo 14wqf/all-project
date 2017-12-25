@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors ide
+ * @email   794958215@qq.com
+ * @date    2017-12-12 08:56:07
+ * @version $Id$
+ */
+ html, body {width:100%;height:100%;}
+ nav {z-index:999; background-color: #000 ;opacity:0.7;}
+ ul{list-style: none;}
+
+
+/*header样式 开始*/
+ /*背景图片*/
+.bg {height: auto;max-width: 100%;display: block;padding: 100px 0;text-align: center;color: #fff;background: url(../imgs/ServiceBj.jpg) no-repeat bottom center; background-size: cover;}
+.bg ul li a {text-decoration : none; color: #FFF;}
+.bg ul li {padding-top: 1%;}
+.bg .btn {background-color: #EE9A00;}
+.bg .btn:hover {background-color: #FFF; color: #45bcf9;}
+.bg .btn {transition: color 0.5s ease-in-out;}
+.bg .top-btm{margin:8% 0 8% 0;  width: 40%; height:auto;}
+.bg .li {padding-left: 40%;}
+.bg .li p{font-size: 30px; font-family: 隶书;}
+h1{font-size: 50px; font-family:隶书; }
+/*nav样式 开始*/
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}
+.my-navbar a{background:transparent !important;color:#fff !important; font-size: 25px; font-family:华文楷体;}
+.my-navbar a:hover {color:#45bcf9 !important;background:#FFFFF0 !important;outline:0}
+.my-navbar a {transition: color 0.5s ease-in-out;}
+/*.my-navbar ul li:hov` er{text-decoration:underline !important;color: #C20C0C !important;}*/
+.top-nav {padding:0;background:#000;}
+/*nav样式 结束*/
+button.navbar-toggle {background-color:#fbfbfb;}
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+.padli{padding-left: 36%; padding-right: 30%}
+/*header样式 结束*/
+
+/*first section 开始*/
+.first-section {background: #313743;}
+.first-section ul {padding-bottom: 3%; padding-top: 3%;}
+.first-section li { color: #FFF; font-size: 15px; font-family: 宋体; width: 50%; padding-top: 2%;}
+.first-section li i{ color: #c9a974; font-size: 40px;}
+/*first section 结束*/
+
+/*second section 开始*/
+.second-section {padding-top: 5%;}
+.second-section h2 {font-family: 楷体; font-size: 40px; padding-bottom: 2%;}
+.second-section span {font-size: 80px; color: #c9a974;}
+.second-section p {color: #C2C2C2;}
+.second-section .col-sm-4{padding-top: 5%;}
+.yy{box-shadow: 0px 5px 5px #C2C2C2;}
+/*cite {color: #c9a974;}*/
+/*second section 结束*/
+
+/*third section 开始*/
+/*third section 结束*/
+
+/*footer 开始*/
+footer {padding-top: 5%;}
+.col-8 {background-color: #c9a974;}
+.col-sm-8 ul li{float:left; padding-left:5%; }
+.col-sm-8 ul li a {text-decoration : none; font-size: 20px; font-family: 宋体; color: #FFF;}
+.col-sm-8 ul li a:hover{ color: #000;}
+.col-sm-12  .pad {padding-top: 5%; padding-bottom: 2%;}
+.xz { transition: All 0.4s ease-in-out;  -webkit-transition: All 0.4s ease-in-out;  -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out;}
+.xz:hover { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);  -o-transform: rotate(360deg); -ms-transform: rotate(360deg);}
+/*footer 结束*/

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<!-- 自定义css -->
+<link rel="stylesheet" href="css/Service.css">
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="Author" content=" ">
+    <title>Document</title>
+    <script>
+        $(window).scroll(function () {
+            if ($(".navbar").offset().top > 50) {$(".navbar-fixed-top").addClass("top-nav");
+            }else {$(".navbar-fixed-top").removeClass("top-nav");}
+        })</script>
+</head>
+<body>
+    <nav class="navbar navbar-fixed-top my-navbar" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"                            data-target="#example-navbar-collapse">
+                     <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <img src="imgs/logo.png" width="5%" height="50" style="float;left; position:absolute;">
+                <ul class="nav navbar-nav padli text-center">
+                    <li class="active"><a href="Index.html">首页</a></li>
+                    <li><a href="AboutMe.html">关于我们</a></li>
+                    <li><a href="Service.html">服务</a></li>
+                    <li><a href="#">画廊</a></li>
+                    <li><a href="#">团队</a></li>
+                    <li><a href="Message.html">留言板</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="bg">
+        <div class=" text-center">
+            <ul class="uls">
+                <li><h1>负重攀越</h1></li>
+                <li ><p><cite title="Source Title">—只为一个全新的高度</cite></p></li>
+            </ul>
+            <ul class="ul">
+                <li class="li lis"><p><button type="button" class="btn btn1">加入我们</button></p></li>
+                <li class="li"><button type="button" class="btn btn2">成为创作者</button></li>
+                <li class="li"><button type="button" class="btn btn3">了解更多</button></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="first-section">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="col-sm-5">
+                    <h3>全城免费送货</h3>
+                    <p>幸福西饼凭借健康的食材和人性化的服务，在各界普受好评。幸福西饼微信公众号现今拥有数百万粉丝，已成为国内知名O2O电商蛋糕品牌之一。集研发生产销售于一体，始终坚持“百分百新鲜现做”，为消费者生产健康、安全、绿色的五星级烘焙食品。9年来，幸福西饼以“用心、传递幸福”的企业使命不断超越自我，完善服务，给成千上万的粉丝带去幸福的味道。</p>
+                    <button type="button" class="btn btns">Read Move</button>
+                </div>
+
+                <div class="col-sm-6 col-md-offset-1">
+                    <img src="imgs/tj.jpg" class="img-responsive yy" width="90%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-section">
+        <div class="col-sm-12">
+            <div class="col-sm-6">
+                <a href=""><img src="imgs/dp.jpg" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-3">
+                <a href=""><img src="imgs/dp3.jpg" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-3">
+                <a href=""><img src="imgs/dp4.jpg" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="col-sm-12 col-12 text-center">
+            <p>实体书店首先属于零售行业，只有在遵守零售行业市场规律的前提下才能奢谈其他。解决了生存与发展问题后，实体书店才能焕发文化属性，为所在地增加安静与文雅气息。 <button type="button" class="btn btns">Read Move</button></p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container third-section">
+            <div class="col-sm-12 text-center">
+                <div><h3>联系我们</h3></div>
+                <div><h4>世界很小，你我很细，留些距离来凝视你的眼神</h4></div>
+            </div>
+            <div class="col-sm-12 text-center">
+                <div class="col-sm-3 col-md-offset-1">
+
+                    <div>
+                        <center><img src="imgs/Email.jpg" class="img-responsive"></center>
+                        <h4>Email</h4>
+                        <h5>123456789hello@qq.com</h5>
+                        <h5>123456789hello@163.com</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-offset-1">
+                    <div>
+                        <center><img src="imgs/Office.jpg" class="img-responsive"></center>
+                        <h4>Our Office</h4>
+                        <h5>中国浙江省杭州西湖白堤西端</h5>
+                        <h5>濒临外西湖81号</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col-md-offset-1">
+                    <div>
+                        <center><img src="imgs/Phone.jpg" class="img-responsive"></center>
+                        <h4>Phone</h4>
+                        <h5>+ 100 -123456789</h5>
+                        <h5>1234567824154</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="col-sm-12 col-8">
+            <div class="container pad">
+                <div class="col-sm-8 ">
+                    <ul>
+                        <li><a href="Index.html">首页</a></li>
+                        <li><a href="AboutMe.html">关于我们</a></li>
+                        <li><a href="#">服务</a></li>
+                        <li><a href="#">画廊</a></li>
+                        <li><a href="#">团队</a></li>
+                        <li><a href="Message.html">留言板</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <img src="imgs/lj.png" class="xz">
+                </div>
+                <center>
+                <div>
+                    <hr style="height:1px;width:100%;border:none;border-top:2px solid #FFF; " />
+                </div>
+                <div class="col-sm-12">
+                    <p>Designed and built with all the love in the world by @mdo and @fat. Maintained by the core </p>
+                </div>
+                </center>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

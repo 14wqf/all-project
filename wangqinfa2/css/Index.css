@@ -1,0 +1,183 @@
+ html, body {width:100%;height:100%;}
+ nav {z-index:999; background-color: #000 ;opacity:0.7;}
+ ul{list-style: none;}
+
+
+/*header样式 开始*/
+ /*背景图片*/
+.bg {height: auto;max-width: 100%;display: block;padding: 100px 0;text-align: center;color: #fff;background: url(../imgs/bj.png) no-repeat bottom center; background-size: cover;}
+.bg ul li a {text-decoration : none; color: #FFF;}
+.bg ul li {padding-top: 1%;}
+.bg .btn {background-color: #EE9A00;}
+.bg .btn:hover {background-color: #FFF; color: #45bcf9;}
+.bg .btn {transition: color 0.5s ease-in-out;}
+.bg .top-btm{padding:8% 0 8% 0;}
+h1{font-size: 50px; font-family:隶书; }
+/*nav样式 开始*/
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}
+.my-navbar a{background:transparent !important;color:#fff !important; font-size: 25px; font-family:华文楷体;}
+.my-navbar a:hover {color:#45bcf9 !important;background:#FFFFF0 !important;outline:0}
+.my-navbar a {transition: color 0.5s ease-in-out;}
+/*.my-navbar ul li:hover{text-decoration:underline !important;color: #C20C0C !important;}*/
+.top-nav {padding:0;background:#000;}
+/*nav样式 结束*/
+button.navbar-toggle {background-color:#fbfbfb;}
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+.padli{padding-left: 36%; padding-right: 30%}
+/*header样式 结束*/
+
+/*first section 开始*/
+.kq{background:url(../imgs/kaqibj.png)no-repeat;}
+.kq span {font-size: 50px; padding-top: 8%; color:#FFF;}
+.kq span:hover {color: #000;}
+.kq p {font-size: 18px; padding:3% 10% 10% 5%; color:#FFF; font-family: 宋体;}
+.kq h1 {font-size: 50px; font-family:隶书; color: #FFF;}
+/*first section 结束*/
+
+/*second setcion 开始*/
+.section-second {padding-top: 3%;}
+.section-second p {font-family: 宋体; font-size: 25px; color: #C2C2C2;}
+.section-second h3 {color :#c9a974; padding-bottom:3%;}
+.section-second .col-sm-4 p {font-size: 18px; font-family: 宋体; color: #C2C2C2;}
+/*second seticon 结束*/
+
+/*third setcion 开始*/
+.section-third {padding-top: 3%; padding-bottom: 3%;}
+.section-third p {font-family: 宋体; font-size: 25px; color: #C2C2C2;}
+.section-third i {font-size: 50px; padding-top: 20%;}
+.section-third .kaqibjs {background-color: #c9a974; float:left; width:15%; height: 80px;}
+.section-third .fl-right{float:right; width:80%;}
+.section-third .fl-right h3{line-height: 0;}
+.section-third .fl-right p{font-size: 20px; padding-top: 5%;}
+/*third setcion 结束*/
+
+/*fourth setcion 开始*/
+.section-second {padding-top: 3%;}
+.gallery-left,.gallery-left1,.gallery-left2,.g-1,.g-2,.g-3,.g-4,.g-6,.g-7{padding:0px; overflow: hidden; }
+/*经过图片放大效果 开始*/
+.img2 {  transition: All 0.4s ease-in-out;  -webkit-transition: All 0.4s ease-in-out; -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out; }
+.img2:hover { transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -o-transform: scale(1.1); -ms-transform: scale(1.1); }
+/*经过图片放大效果 结束*/
+
+/*fourth setcion 结束*/
+
+/*fifth setcion 开始*/
+.section-fifth {padding-top: 3%;}
+.section-fifth p {font-family: 宋体; font-size: 25px; color: #C2C2C2;}
+.section-fifth ul li{padding-top: 5%;}
+.section-fifth ul li a{text-decoration : none; color: #c9a974; font-size: 18px; font-family: 宋体;}
+.section-fifth ul li a:hover{color: #000;}
+.section-fifth .col-12 {padding-top: 5%;}
+/*fifth setcion 开始*/
+
+/*sixth setcion 开始*/
+.section-sixth {padding-top: 5%;}
+.section-sixth p {font-family: 宋体; font-size: 25px; color: #C2C2C2; padding-bottom: 5%;}
+.section-sixth p a{text-decoration : none;}
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%,#05abe0 100%);
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 3em;
+  text-align: left;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-40px,0,0);
+  transform: translate3d(-40px,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 15% 0 10px 0;
+  text-align: left;
+}
+
+.hovereffect .overlay:before {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  left: 20px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #FFF;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  transition: opacity 0.35s, transform 0.45s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+}
+
+.hovereffect:hover img {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect:hover .overlay:before,
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+/*sixth setcion 开始*/
+
+/*seventh setcion 开始*/
+.section-seventh {padding-top: 5%;}
+.section-seventh p {font-family: 宋体; font-size: 25px; color: #C2C2C2; padding-bottom: 5%;}
+.section-seventh .col-sm-4 ul .li {padding-top: 15%; font-size: 25px; font-family: 隶书; color: #C2C2C2;}
+.section-seventh .col-sm-4 ul .li:hover {color: #000;}
+.section-seventh .col-sm-4 ul .li {transition: color 0.5s ease-in-out;}
+.section-seventh .col-sm-4 i {font-size: 40px; }
+.btns {background-color: #c9a974;border-Radius:0px; color: #FFF;}
+.btns:hover {background-color: #000; color: #45bcf9; }
+.btns {transition: color 0.5s ease-in-out;}
+/*seventh setcion 结束*/
+
+/*footer 开始*/
+.col-8 {background-color: #c9a974;}
+.col-sm-8 ul li{float:left; padding-left:5%; }
+.col-sm-8 ul li a {text-decoration : none; font-size: 20px; font-family: 宋体; color: #FFF;}
+.col-sm-8 ul li a:hover{ color: #000;}
+.col-sm-12  .pad {padding-top: 5%; padding-bottom: 2%;}
+.xz { transition: All 0.4s ease-in-out;  -webkit-transition: All 0.4s ease-in-out;  -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out;}
+.xz:hover { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);  -o-transform: rotate(360deg); -ms-transform: rotate(360deg);  }
+/*footer 结束*/

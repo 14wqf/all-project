@@ -1,0 +1,53 @@
+ html, body {width:100%;height:100%;}
+ nav {z-index:999; }
+/* background-color: #000 ;opacity:0.7;*/
+ ul{list-style: none;}
+
+/*header样式 开始*/
+.padli{padding-left: 36%; padding-right: 30%}
+/*nav样式 开始*/
+.my-navbar {padding:20px 0;transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;}
+.my-navbar a{background:transparent !important;color:#fff !important; font-size: 25px; font-family:华文楷体;}
+.my-navbar a:hover {color:#45bcf9 !important;background:#FFFFF0 !important;outline:0}
+.my-navbar a {transition: color 0.5s ease-in-out;}
+/*.my-navbar ul li:hover{text-decoration:underline !important;color: #C20C0C !important;}*/
+.top-nav {padding:0;background:#000;}
+/*nav样式 结束*/
+button.navbar-toggle {background-color:#fbfbfb;}
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+ /*背景图片*/
+.bg {height: auto;max-width: 100%;display: block;padding: 100px 0;text-align: center;color: #fff;background: url(../imgs/LyBJs.jpg) no-repeat bottom center; background-size: cover;}
+.bg ul li a {text-decoration : none; }
+.bg h1{font-size: 50px; font-family:隶书; color: #5b99be;}
+.bg p{color: #5b99be;}
+.bg .uls{padding-top: 10%;}
+.bg .ul {padding-left: 40%; padding-top: 5%; padding-bottom: 10%;}
+.bg .li {float:left; padding-left: 3%;}
+.bg .li .btn1{color:#FFF; background-color: #228B22;}
+.bg .li .btn2{color:#228B22; background: none !important;}
+.bg .li .btn3{color:#5b99be; background: none !important;}
+/*header样式 结束*/
+
+/*first section 开始*/
+.first-section {margin-top: -5%;}
+.first-section li{padding-top: 15%;}
+.first-section .btns {background: none !important; border: 1px solid #C2C2C2; color: #C2C2C2;}
+/*first section 结束*/
+
+/*second section 开始*/
+.second-section {margin-top: 5%; margin-bottom: 5%;}
+.second-section h5 {color: #949494; padding-top: 3%;}
+.second-section .hs {background: #9FB6CD}
+/*second section 结束*/
+
+/*footer 开始*/
+.col-8 {background: url(../imgs/foot.jpg)no-repeat bottom center; background-size: cover;}
+.col-sm-8 ul li{float:left; padding-left:5%; }
+.col-sm-8 ul li a {text-decoration : none; font-size: 20px; font-family: 宋体; color: #000;}
+.col-sm-8 ul li a:hover{ color: #c986a1;}
+.col-sm-12  .pad {padding-top: 5%; padding-bottom: 2%;}
+
+/*经过旋转*/
+.xz { transition: All 0.4s ease-in-out;  -webkit-transition: All 0.4s ease-in-out;  -moz-transition: All 0.4s ease-in-out; -o-transition: All 0.4s ease-in-out;}
+.xz:hover { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg);  -o-transform: rotate(360deg); -ms-transform: rotate(360deg);  }
+/*footer 结束*/
