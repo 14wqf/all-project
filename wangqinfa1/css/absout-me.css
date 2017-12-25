@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+    header{font-family:'微软雅黑';font-weight: bold; background-color: #FFF; float:left;}
+    .im{ background-color: #787878; }
+    .hword{font-size: 20px; color: #4A4A4A; }
+    /*导航条悬停变色*/
+    nav li a:hover { font-size: 20px; color: #FFF;}
+
+
+    .box-shadow{
+    box-shadow:-12px 0 12px #D1D1D1, /*左边阴影*/
+    12px 0 12px #D1D1D1, /*右边阴影*/
+    0 0px 0px #FFF, /*顶部阴影*/
+    0 12px 12px #D1D1D1; /*底边阴影*/
+}
+
+    .box-shadows{
+    box-shadow:-6px 0 6px #D1D1D1, /*左边阴影*/
+    6px 0 6px #D1D1D1, /*右边阴影*/
+    -6px -6px 6px #D1D1D1, /*顶部阴影*/
+    0 6px 6px #D1D1D1; /*底边阴影*/
+}
+
+/*悬停变亮的效果*/
+.imgs {opacity:1; filter(alpha=70); }
+.imgs:hover {opacity:0.7; filter(alpha=100); }
+
+
+/*悬停变大*/
+ .img{cursor: pointer; transition: all 0.6s;}
+ .imgh:hover{transform: scale(1.2);}
+ .xs{overflow: hidden}
+
+/*水平线插文字*/
+.text-box {
+    display: table; width: 100%;}
+.text { display: table-cell; width: 15%; text-align: center;position: relative;bottom:-12px;}
+.text-box::before,.text-box::after { content:""; display: table-cell; border-bottom: #ccc solid 1px;}
+
+/*轮播按钮容器*/
+.brow{padding-top: 200px; background: #F2F2F2}
+
+/*背景颜色设为白色*/
+.back{background: #F2F2F2; padding-top: 20px;}
+
+
+
+.hehe{background: #000; width: 100%; top: 30%; opacity: 0.7; position: absolute; height:10% ;line-height:40px;}
+.card{width:100%; padding-bottom: 30px;  padding-bottom: padding-top: 50px;}
+.card img{width:100% }
+
+.btn {background: #FFE4E1; border-color: #E99002}
+.btn:hover{
+    background: #FFF;
+}
+.header{background: #FFF8DC; padding-bottom: 50px; padding-top: 50px;}
+.wz{font-size:40px; padding-left: 100%; padding-top: 0%;}
+h1{display:inline; top: 100%; padding-top: 30px; }
+.ols{padding-top: 50px; }
+.oi{padding-bottom: 15px;}

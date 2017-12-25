@@ -1,0 +1,68 @@
+ body {background-image:url(../imgs/bj.jpg); background-repeat:no-repeat; background-attachment:fixed; }
+    header{font-family:'微软雅黑';font-weight: bold; background-color: #FFF; position:absolute;position:relative}
+    .im{ background-color: #787878; }
+    .hword{font-size: 20px; color: #4A4A4A; }
+    /*导航条悬停变色*/
+    nav li a:hover { font-size: 20px; color: #FFF;}
+
+
+    .box-shadow{
+    box-shadow:-12px 0 12px #D1D1D1, /*左边阴影*/
+    12px 0 12px #D1D1D1, /*右边阴影*/
+    0 0px 0px #FFF, /*顶部阴影*/
+    0 12px 12px #D1D1D1; /*底边阴影*/
+}
+
+    .box-shadows{
+    box-shadow:-6px 0 6px #D1D1D1, /*左边阴影*/
+    6px 0 6px #D1D1D1, /*右边阴影*/
+    -6px -6px 6px #D1D1D1, /*顶部阴影*/
+    0 6px 6px #D1D1D1; /*底边阴影*/
+}
+
+
+
+/*悬停变亮的效果*/
+.imgs {opacity:1; filter(alpha=70); }
+.imgs:hover {opacity:0.7; filter(alpha=100); }
+.item img{min-height: 300px;}
+
+/*悬停变大*/
+ .img{cursor: pointer; transition: all 0.6s;}
+ .imgh:hover{transform: scale(1.2);}
+ .xs{overflow: hidden}
+
+/*水平线插文字*/
+.text-box {
+    display: table; width: 100%;}
+.text { display: table-cell; width: 15%; text-align: center;position: relative;bottom:-12px;}
+.text-box::before,.text-box::after { content:""; display: table-cell; border-bottom: #ccc solid 1px;}
+
+/*将行级变成块级元素*/
+h2{display:inline;}
+
+/*背景颜色设为白色*/
+.back{background: #F2F2F2;padding-top: 100px; padding-bottom: 3%;}
+
+/*设置透明背景的字体样式*/
+.section-font{font-family:'微软雅黑';font-weight: bold; color: #000}
+
+
+.hehe{background: #000; width: 100%; top: 80%; opacity: 0.7; position: absolute;height:10% ;line-height:30px;}
+.card{width:100%; padding-bottom: 30px;}
+.card img{width:100% }
+
+
+/*页尾*/
+.header{background: #FFF8DC; padding-bottom: 50px; padding-top: 50px;}
+.wz{font-size:40px; padding-left: 100%; padding-top: 0%;}
+h1{display:inline; top: 80%; padding-top: 10px;}
+.ols{padding-top: 50px; }
+.oi{padding-bottom: 15px;}
+
+/*input输入框*/
+.btn-box{box-shadow:0 1px 0 0px #FF7F24; /*底边阴影*/}
+
+.pad{padding-left: 30%;}
+
+h5{line-height : 14px;letter-spacing : 1px}
